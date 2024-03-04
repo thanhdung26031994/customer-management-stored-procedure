@@ -1,2 +1,7 @@
-package org.example.customermanagementstoredprocedure.repository;public interface ICustomerRepository {
+package org.example.customermanagementstoredprocedure.repository;
+
+import org.example.customermanagementstoredprocedure.model.Customer;
+
+public interface ICustomerRepository {
+    boolean saveWithStoreProcedure(Customer customer);
 }
